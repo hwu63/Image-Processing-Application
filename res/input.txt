@@ -1,0 +1,11 @@
+load res/manhattan-small.png
+mosaic 1000
+save res/manhattan-small-mosaic.png
+
+load res/ContrastBefore.png
+grayscaleContrastEnhancement
+save res/ContrastAfter.png
+
+load res/RedeyeGirl.png
+redEye 0 0 100 100
+save res/red-eye-cut-removed.png

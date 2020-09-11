@@ -1,0 +1,88 @@
+load res/manhattan-small.png
+dither
+save res/manhattan-small-dithering.png
+
+load res/manhattan-small.png
+edgeDetection
+save res/manhattan-small-edge-detection.png
+
+load res/manhattan-small.png
+greyscale
+save res/manhattan-small-greyscale.png
+
+load res/manhattan-small.png
+sepia
+save res/manhattan-small-sepia.png
+
+load res/manhattan-small.png
+blur
+save res/manhattan-small-blur.png
+blur 2
+save res/manhattan-small-blur-2.png
+
+load res/manhattan-small.png
+sharpen
+save res/manhattan-small-sharpen.png
+sharpen 2
+save res/manhattan-small-sharpen-2.png
+
+load res/manhattan-small.png
+blur
+dither
+edgeDetection
+save res/manhattan-small-blur-dither-edge-detection.png
+
+checkBoard 30 20 10
+save res/checkboard.png
+
+rainbow 300 300 true
+save res/rainbow-horizontal.png
+
+rainbow 300 300 false
+save res/rainbow-vertical.png
+
+flagFrance 200 299
+save res/flag-france.png
+
+flagSwiterland 200
+save res/flag-switzerland.png
+
+flagNorway 200 300
+save res/flag-norway.png
+
+flagGreece 200 300
+save res/flag-greece.png
+
+load res/edge-example.png
+dither
+save res/edge-example-dithering.png
+
+load res/edge-example.png
+edgeDetection
+save res/edge-example-edge-detection.png
+
+load res/edge-example.png
+greyscale
+save res/edge-example-greyscale.png
+
+load res/edge-example.png
+sepia
+save res/edge-example-sepia.png
+
+load res/edge-example.png
+blur
+save res/edge-example-blur.png
+blur 2
+save res/edge-example-blur-2.png
+
+load res/edge-example.png
+sharpen
+save res/edge-example-sharpen.png
+sharpen 2
+save res/edge-example-sharpen-2.png
+
+load res/edge-example.png
+blur
+dither
+edgeDetection
+save res/edge-example-blur-dither-edge-detection.png
