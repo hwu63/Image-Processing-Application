@@ -3,7 +3,7 @@ Click on MenuBar which include file, generator and operators.
 Load image through open first then select the operator.
 In Red Eye Removel, drag on the image. There will be a red rectangle drawed, inside which is the selected aera to apply red eye removel.
 Click on clear button to clear filter.
-Generators do not require load image.
+Generators do not require to load image.
 
 
 # Using file input
