@@ -6,9 +6,8 @@ Click on clear button to clear filter.
 Generators do not require load image.
 
 
-
 # Using file input
-This program should be used by editing the input.txt located in res folder.
+If using file input, then please edit the input.txt located in res folder.
 There is example command lines already inside input.txt and input-2.txt.
 
 ## Use of commands:
